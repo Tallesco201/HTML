@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <form>
+      <h3>Dados para login</h3>
+
+      <label for="email">Digite seu email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+      <label for="senha">Digite sua senha:</label>
+      <input type="password" id="senha" name="senha" required /><br /><br />
+
+      <h3>Dados pessoais</h3>
+
+      <label for="nome">Digite seu nome:</label>
+      <input type="text" id="nome" /><br /><br />
+      <label for="sobrenome">Digite seu sobrenome:</label>
+      <input type="text" id="sobrenome" /><br /><br />
+      <p>Escolha seu sexo:</p>
+      <input type="radio" id="Masculino" value="Masculino" checkbox />
+      <label for="Masculino">Masculino</label><br />
+      <input type="radio" id="Feminino" value="Feminino" />
+      <label for="Feminino">Feminino</label><br />
+      <input type="radio" id="Outro" value="Outro" />
+      <label for="Outro">Outro</label><br /><br />
+      <label for="CPF">Informe seu CPF:</label>
+      <input type="number" id="CPF" placeholder="123.456.789-01" /><br /><br />
+      <label for="telefone">Digite o tel:</label>
+      <input
+        type="tel"
+        id="telefone"
+        placeholder="(DDD)xxxxx-xxxx"
+      /><br /><br />
+      <label for="data_nas">Data de nascimento:</label>
+      <input type="date" id="data_nas" placeholder="mm//dd/yyyy" /><br /><br />
+
+      <h3>Endereço</h3>
+
+      <label for="Cep">Informe seu Cep:</label>
+      <input type="number" id="Cep" /><br /><br />
+      <label for="rua">Digite o nome da Rua:</label>
+      <input type="text" id="rua" /><br /><br />
+      <label for="num">Numero:</label>
+      <input type="number" id="num" /><br /><br />
+      <label for="Bairro">Bairro:</label>
+      <input type="text" id="Bairro" /><br /><br />
+      <label for="cidade">Digite o nome da cidade onde mora:</label>
+      <input type="text" id="cidade" /><br /><br />
+      <label for="estado">Selecione o estado onde mora:</label>
+      <select id="estado" name="lista de estado">
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+        <option value="EX">Estrangeiro</option></select
+      ><br /><br /><br /><br />
+
+      <button type="submit"><h3>Cadastar</h3></button>
+    </form>
+  </body>
+</html>

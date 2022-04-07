@@ -1,0 +1,36 @@
+h1 {
+    font-size:60px;
+    color:rgb(90, 11, 164);
+   border-bottom: 1px solid black;
+}
+
+p {
+    font-size:25px;
+}
+
+
+/* Quando se usa o class acontece uma estilização apenas no local desejado e o class tambem pode ter nomes iguais*/
+.t2 {
+    color: greenyellow;
+    font-size: 35px;
+}
+
+.box-red {
+    color:black;
+    background-color:red;
+}
+
+.box-blue{
+    color:black;
+    background-color:pink;
+}   
+
+.box{
+    height:50px;
+    width: 50px;
+}
+/* estilização do id, este e unico nao pode ter nome igual  */
+#sessao-de-texto{
+    font-size:55px;
+    color:blueviolet;
+}
